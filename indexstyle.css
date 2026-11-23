@@ -1,0 +1,49 @@
+html,body{
+    height:100%;
+    margin:0;
+    background-image: url("C:/Users/KNOBLJAS000/OneDrive - Hamilton Southeastern Schools/Desktop/WebDesign/FinalProject/thunderstorm-4375844_1280-480x560.jpg");
+    background-repeat: repeat-y;
+    background-size:cover;
+    background-position: center;
+    color:darkblue;
+    text-align: center;
+    font-family: Helvetica;
+}
+#buttonContainer{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:24px;
+    height:630px;
+    background-image: url("C:/Users/KNOBLJAS000/OneDrive - Hamilton Southeastern Schools/Desktop/IMG_0500.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+button{
+    background-color:rgb(23, 166, 248, 0.5);
+    border: solid darkblue 2px;
+    border-radius: 50px;
+    color:darkblue;
+    height:50px;
+    width: 200px;
+    font-size: larger;
+}
+button:hover{
+    background-color:rgb(18, 18, 223, 0.5);
+    height:70px;
+    width:230px;
+    color:white;
+}
+h1{
+    background-color:chartreuse;
+    border: darkblue solid 2px;
+    border-radius: 50px;
+}
+.footnote{
+    background-color:chartreuse;
+    border:darkblue solid, 2px;
+    border-radius:50px;
+    margin:20px;
+    padding:1px;
+}

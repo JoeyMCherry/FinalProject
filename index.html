@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+    <h1>Tornado siren info</h1>
+    <div class = "footnote">
+        <p><em>Click whichever tornado siren company you'd like to read about and search through their sirens to lean more!</em></p>
+    </div>
+    <div id="buttonContainer">
+        <br><br>
+        <button id = "Fed">Federal Signal</button>
+        <br>
+        <button id="Whelen">Whelen</button>
+        <br>
+        <button id="Sentry">Sentry Siren</button>
+        <br>
+        <button id="ASC">ASC (Formally known as ACA)</button>
+        <br>
+        <button id="Games">Games</button>
+    </div>
+    <script>
+        function bannerChange (){
+            let banner = document.getElementsByTagName("h1")[0];
+            banner.style.backgroundColor = "chartreuse";
+            let interval = setInterval(() => {
+                if(banner.style.backgroundColor == "chartreuse"){
+                    banner.style.backgroundColor = "aqua";
+                }else{
+                    banner.style.backgroundColor = "chartreuse";
+                }
+            }, 250);
+        }
+        bannerChange();
+        function FedRedirect(){
+            var button = document.getElementById("Fed");
+            button.addEventListener("click", () => {
+                window.location.href = "FederalSignal.html";
+            });
+        }
+        FedRedirect();
+         function WhelenRedirect(){
+            var button = document.getElementById("Whelen");
+            button.addEventListener("click", () => {
+                window.location.href = "Whelen.html";
+            });
+        }
+        WhelenRedirect();
+        function SentryRedirect(){
+            var button = document.getElementById("Sentry");
+            button.addEventListener("click", () => {
+                window.location.href = "SentrySiren.html";
+            });
+        }
+        SentryRedirect();
+        function ASCRedirect(){
+            var button = document.getElementById("ASC");
+            button.addEventListener("click", () => {
+                window.location.href = "ASC.html";
+            });
+        }
+        ASCRedirect();
+        function GamesRedirect(){
+            this.addEventListener("click", function() {
+        window.location.href = "Games.html";
+    });
+}
+GamesRedirect.call(document.getElementById("Games"));
+    </script>
+</body>
+</html>
