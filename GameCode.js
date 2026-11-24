@@ -13,7 +13,15 @@ var images = [
     {src:"WS2000-12.png", name:"WS2000"},
     {src:"Whelen2800lineup.jpeg", name:"WPS 2800"},
     {src:"20V1T.jpg", name:"20V1T"},
-    {src:"14V.jpg", name:"14V"}
+    {src:"14V.jpg", name:"14V"},
+    {src:"5V.png", name:"5V"},
+    {src:"AL5000.webp", name:"AL5000"},
+    {src:"AL6000R.webp", name:"AL6000R"},
+    {src:"Allertor.jpeg", name:"Allertor"},
+    {src:"Banshee115.jpg", name:"Banshee"},
+    {src:"Cyclone.jpg", name:"Cyclone"},
+    {src:"T121.jpg", name:"T121"},
+    {src:"T130.png", name:"T130"}
 ];
 var rightAnswer;
 function randomSiren(){
